@@ -98,14 +98,30 @@ body{
  }
  .item i:hover
  {
-                 color: #5a64b6;
+                 
                  background-color: white;
  
              }
 
 
 
-.item, .check-button, .trash-button {
+.item{
+    border: none;
+    background-color: white;
+    min-height: 50px;
+    padding: 10px 10px;
+    
+}
+ .check-button{
+    border: none;
+    background-color: white;
+    min-height: 50px;
+    padding: 10px 10px;
+
+    
+}
+
+  .trash-button {
     border: none;
     background-color: white;
     min-height: 50px;
@@ -137,12 +153,7 @@ body{
     font-size: 1rem;
     
 }
-.item i:hover
-{
-                color: #5a64b6;
-                background-color: white;
 
-            }
 
 .check-button, .trash-button {
     font-size: 1.5rem;
@@ -156,7 +167,7 @@ body{
 
 
 
-
+/* 
 .clear{
     padding: 10px;
     margin: 0  40%;
@@ -167,10 +178,6 @@ body{
     font-size: 20px;
    
 
-}
-.clear:hover{
-    background-color: rgb(78,151,199);
-    color: white;
-}
+} */
 
 

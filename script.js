@@ -22,20 +22,20 @@ addItem  = (input) => {
     const checkboxIcon = document.createElement("i");
     checkboxIcon.innerHTML = '<i class="fa-regular fa-circle-check"></i>'
     checkboxIcon.className ="check-button";
-    checkboxIcon.style.color=""
+    checkboxIcon.style.color="red"
     
     allItem.appendChild(checkboxIcon);
 
     checkboxIcon.addEventListener("click" , checkbox() );
     
     function checkbox (){
-        if(checkboxIcon.style.color = "red"){
+        if(checkboxIcon.style.color == "red"){
             checkboxIcon.style.color = "green";
-        }if (checkboxIcon.style.color = "green"){
+        }if (checkboxIcon.style.color == "green"){
             checkboxIcon.style.color = "red";
         }
     }
-    
+     
     
     const deleteIcon = document.createElement("i");
     deleteIcon.innerHTML = '<i class="fa-solid fa-trash-can"></i>'

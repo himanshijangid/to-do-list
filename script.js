@@ -26,10 +26,20 @@ addItem  = (input) => {
     
     allItem.appendChild(checkboxIcon);
 
-    checkboxIcon.addEventListener("click" , () =>{
-        checkboxIcon.style.color="green"
-    } );
-
+    // checkboxIcon.addEventListener("click" , () =>{
+    //     checkboxIcon.style.color="green"
+    // } );
+    checkboxIcon.addEventListener("click", () =>{
+        let color = checkboxIcon.style.color;
+        if(color=='red'){
+            checkboxIcon.style.color='green';
+        }
+        else{
+            
+            checkboxIcon.style.color='red';
+        }
+        
+    });
     
     // checkboxIcon.addEventListener("click" , checkbox()
     // );

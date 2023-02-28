@@ -33,10 +33,12 @@ addItem  = (input) => {
         let color = checkboxIcon.style.color;
         if(color=='red'){
             checkboxIcon.style.color='green';
+            item.style.textDecoration="line-through";
         }
         else{
             
             checkboxIcon.style.color='red';
+            item.style.textDecoration="none";
         }
         
     });

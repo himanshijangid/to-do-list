@@ -44,9 +44,9 @@ addItem  = (input) => {
     // checkboxIcon.addEventListener("click" , checkbox()
     // );
    // function checkbox (){
-    //     if(checkboxIcon.style.color === "red"){
+    //     if(checkboxIcon.style.color == "red"){
     //         checkboxIcon.style.color = "green";
-    //     }if (checkboxIcon.style.color === "green"){
+    //     }if (checkboxIcon.style.color == "green"){
     //         checkboxIcon.style.color = "red";
     //     }
     // }

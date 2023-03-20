@@ -20,6 +20,7 @@ addItem  = (input) => {
     text.textContent = input;
 
     checkboxIcon.className ="fa-regular fa-circle-check";
+    
     checkboxIcon.style.color = "red" ;
 
     function checkbox (){

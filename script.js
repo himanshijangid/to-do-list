@@ -41,7 +41,7 @@ addItem  = (input) => {
     item.appendChild (text);
     item.appendChild(div);
 
-    document.querySelector("#to-do-list").appendChild(item);
+    document.querySelector(".to-do-list").appendChild(item);
     document.querySelector("#input").value = "";
 
 

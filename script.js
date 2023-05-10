@@ -26,7 +26,7 @@ addItem  = (input) => {
     function checkbox (){
         if(checkboxIcon.style.color = "red"){
             checkboxIcon.style.color = "green";
-        }if (checkboxIcon.style.color = "green"){
+        }else{
             checkboxIcon.style.color = "red";
         }
     }

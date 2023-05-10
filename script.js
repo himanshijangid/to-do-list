@@ -23,14 +23,19 @@ addItem  = (input) => {
     
     checkboxIcon.style.color = "red" ;
 
-    function checkbox (){
-        if(checkboxIcon.style.color = "red"){
-            checkboxIcon.style.color = "green";
-        }else{
-            checkboxIcon.style.color = "red";
+  
+    checkboxIcon.addEventListener("click" , () => {
+        let color = checkboxIcon.style.color;
+        if(color=='red'){
+            checkboxIcon.style.color='green';
+            text.style.textDecoration = "line-through"; 
         }
-    }
-    checkboxIcon.addEventListener("click" , checkbox() );
+        else{
+            
+            checkboxIcon.style.color='red';
+            text.style.textDecoration = "none"; 
+        }
+    } );
     div.appendChild(checkboxIcon);
 
     deleteIcon.className ="fa-solid fa-trash-can";
